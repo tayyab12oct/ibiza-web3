@@ -1,0 +1,74 @@
+[
+  {
+    "name": "blank-page___en",
+    "path": "/blank-page",
+    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\blank-page.vue",
+    "chunkName": "pages/blank-page"
+  },
+  {
+    "name": "contact___en",
+    "path": "/contact",
+    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\contact.vue",
+    "chunkName": "pages/contact"
+  },
+  {
+    "name": "index___es",
+    "path": "/es",
+    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  },
+  {
+    "name": "login___en",
+    "path": "/login",
+    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\login.vue",
+    "chunkName": "pages/login"
+  },
+  {
+    "name": "Privacy-terms___en",
+    "path": "/Privacy-terms",
+    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\Privacy-terms.vue",
+    "chunkName": "pages/Privacy-terms"
+  },
+  {
+    "name": "register___en",
+    "path": "/register",
+    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\register.vue",
+    "chunkName": "pages/register"
+  },
+  {
+    "name": "blank-page___es",
+    "path": "/es/blank-page",
+    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\blank-page.vue",
+    "chunkName": "pages/blank-page"
+  },
+  {
+    "name": "contact___es",
+    "path": "/es/contact",
+    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\contact.vue",
+    "chunkName": "pages/contact"
+  },
+  {
+    "name": "login___es",
+    "path": "/es/login",
+    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\login.vue",
+    "chunkName": "pages/login"
+  },
+  {
+    "name": "Privacy-terms___es",
+    "path": "/es/Privacy-terms",
+    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\Privacy-terms.vue",
+    "chunkName": "pages/Privacy-terms"
+  },
+  {
+    "name": "register___es",
+    "path": "/es/register",
+    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\register.vue",
+    "chunkName": "pages/register"
+  },
+  {
+    "name": "index___en",
+    "path": "/",
+    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

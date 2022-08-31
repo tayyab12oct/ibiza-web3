@@ -2,29 +2,29 @@ import Vue from 'vue'
 import { decode, parsePath, withoutBase, withoutTrailingSlash, normalizeURL } from 'ufo'
 
 import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils'
-import NuxtError from '..\\layouts\\error.vue'
+import NuxtError from '../layouts/error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
-import '..\\node_modules\\@fortawesome\\fontawesome-svg-core\\styles.css'
+import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
 
-import '..\\assets\\transition.scss'
+import '../assets/transition.scss'
 
-import '..\\assets\\vuetify-overide.scss'
+import '../assets/vuetify-overide.scss'
 
-import '..\\assets\\vendors\\animate.css'
+import '../assets/vendors/animate.css'
 
-import '..\\assets\\vendors\\animate-extends.css'
+import '../assets/vendors/animate-extends.css'
 
-import '..\\assets\\vendors\\hamburger-menu.css'
+import '../assets/vendors/hamburger-menu.css'
 
-import '..\\assets\\vendors\\slick-carousel\\slick.css'
+import '../assets/vendors/slick-carousel/slick.css'
 
-import '..\\assets\\vendors\\slick-carousel\\slick-theme.css'
+import '../assets/vendors/slick-carousel/slick-theme.css'
 
-import '..\\node_modules\\vuetify\\dist\\vuetify.css'
+import '../node_modules/vuetify/dist/vuetify.css'
 
-import _6f6c098b from '..\\layouts\\default.vue'
+import _6f6c098b from '../layouts/default.vue'
 
 const layouts = { "_default": sanitizeComponent(_6f6c098b) }
 

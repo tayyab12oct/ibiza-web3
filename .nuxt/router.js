@@ -4,12 +4,12 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _519f0a32 = () => interopDefault(import('..\\pages\\blank-page.vue' /* webpackChunkName: "pages/blank-page" */))
-const _1ea33331 = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
-const _5d045923 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
-const _26abfc3a = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
-const _83046b9a = () => interopDefault(import('..\\pages\\Privacy-terms.vue' /* webpackChunkName: "pages/Privacy-terms" */))
-const _066dfa62 = () => interopDefault(import('..\\pages\\register.vue' /* webpackChunkName: "pages/register" */))
+const _21921217 = () => interopDefault(import('../pages/blank-page.vue' /* webpackChunkName: "pages/blank-page" */))
+const _388c6a01 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
+const _2e6d03f3 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _0fd6b1ec = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
+const _dd92b5fa = () => interopDefault(import('../pages/Privacy-terms.vue' /* webpackChunkName: "pages/Privacy-terms" */))
+const _29ab9d92 = () => interopDefault(import('../pages/register.vue' /* webpackChunkName: "pages/register" */))
 
 const emptyFn = () => {}
 
@@ -24,51 +24,51 @@ export const routerOptions = {
 
   routes: [{
     path: "/blank-page",
-    component: _519f0a32,
+    component: _21921217,
     name: "blank-page___en"
   }, {
     path: "/contact",
-    component: _1ea33331,
+    component: _388c6a01,
     name: "contact___en"
   }, {
     path: "/es",
-    component: _5d045923,
+    component: _2e6d03f3,
     name: "index___es"
   }, {
     path: "/login",
-    component: _26abfc3a,
+    component: _0fd6b1ec,
     name: "login___en"
   }, {
     path: "/Privacy-terms",
-    component: _83046b9a,
+    component: _dd92b5fa,
     name: "Privacy-terms___en"
   }, {
     path: "/register",
-    component: _066dfa62,
+    component: _29ab9d92,
     name: "register___en"
   }, {
     path: "/es/blank-page",
-    component: _519f0a32,
+    component: _21921217,
     name: "blank-page___es"
   }, {
     path: "/es/contact",
-    component: _1ea33331,
+    component: _388c6a01,
     name: "contact___es"
   }, {
     path: "/es/login",
-    component: _26abfc3a,
+    component: _0fd6b1ec,
     name: "login___es"
   }, {
     path: "/es/Privacy-terms",
-    component: _83046b9a,
+    component: _dd92b5fa,
     name: "Privacy-terms___es"
   }, {
     path: "/es/register",
-    component: _066dfa62,
+    component: _29ab9d92,
     name: "register___es"
   }, {
     path: "/",
-    component: _5d045923,
+    component: _2e6d03f3,
     name: "index___en"
   }],
 

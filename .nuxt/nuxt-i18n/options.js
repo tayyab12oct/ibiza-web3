@@ -1,4 +1,4 @@
-import locale6010b66b from '../..\\static\\lang\\en-US.js'
+import locale6010b66b from '../../static/lang/en-US.js'
 
 export const Constants = {
   COMPONENT_OPTIONS_KEY: "nuxtI18n",
@@ -20,7 +20,7 @@ export const options = {
   sortRoutes: true,
   strategy: "prefix_except_default",
   lazy: true,
-  langDir: "C:\\laragon\\www\\vue\\Ibzamaintweb\\static\\lang",
+  langDir: "/Users/tayyab/Desktop/ibiza/static/lang",
   rootRedirect: null,
   detectBrowserLanguage: {"alwaysRedirect":true,"cookieAge":365,"cookieCrossOrigin":false,"cookieDomain":null,"cookieKey":"i18n_redirected","cookieSecure":false,"fallbackLocale":"","redirectOn":"root","useCookie":true},
   differentDomains: false,
@@ -39,5 +39,5 @@ export const options = {
 
 export const localeMessages = {
   'en-US.js': () => Promise.resolve(locale6010b66b),
-  'es-ES.js': () => import('../..\\static\\lang\\es-ES.js' /* webpackChunkName: "lang-es-ES.js" */),
+  'es-ES.js': () => import('../../static/lang/es-ES.js' /* webpackChunkName: "lang-es-ES.js" */),
 }

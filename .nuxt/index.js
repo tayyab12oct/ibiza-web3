@@ -5,7 +5,7 @@ import ClientOnly from 'vue-client-only'
 import NoSsr from 'vue-no-ssr'
 import { createRouter } from './router.js'
 import NuxtChild from './components/nuxt-child.js'
-import NuxtError from '..\\layouts\\error.vue'
+import NuxtError from '../layouts/error.vue'
 import Nuxt from './components/nuxt.js'
 import App from './App.js'
 import { setContext, getLocation, getRouteData, normalizeError } from './utils'
@@ -13,20 +13,20 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_2d5980ec from 'nuxt_plugin_plugin_2d5980ec' // Source: .\\vuetify\\plugin.js (mode: 'all')
-import nuxt_plugin_pluginutils_e2d69cba from 'nuxt_plugin_pluginutils_e2d69cba' // Source: .\\nuxt-i18n\\plugin.utils.js (mode: 'all')
-import nuxt_plugin_pluginrouting_1ba13ba4 from 'nuxt_plugin_pluginrouting_1ba13ba4' // Source: .\\nuxt-i18n\\plugin.routing.js (mode: 'all')
-import nuxt_plugin_pluginmain_8e4b2ffe from 'nuxt_plugin_pluginmain_8e4b2ffe' // Source: .\\nuxt-i18n\\plugin.main.js (mode: 'all')
-import nuxt_plugin_nuxtmq_41955a73 from 'nuxt_plugin_nuxtmq_41955a73' // Source: .\\nuxt-mq.js (mode: 'all')
-import nuxt_plugin_nuxttypeform_a5d96a4e from 'nuxt_plugin_nuxttypeform_a5d96a4e' // Source: .\\nuxt-typeform.js (mode: 'all')
-import nuxt_plugin_fontawesome_4c357f2d from 'nuxt_plugin_fontawesome_4c357f2d' // Source: .\\fontawesome.js (mode: 'all')
-import nuxt_plugin_vuefragmentconfig_12a6b83c from 'nuxt_plugin_vuefragmentconfig_12a6b83c' // Source: ..\\plugins\\vue-fragment-config (mode: 'all')
-import nuxt_plugin_vuewowconfig_32ee3066 from 'nuxt_plugin_vuewowconfig_32ee3066' // Source: ..\\plugins\\vue-wow-config (mode: 'all')
-import nuxt_plugin_vueyoutubeconfig_52b5d649 from 'nuxt_plugin_vueyoutubeconfig_52b5d649' // Source: ..\\plugins\\vue-youtube-config (mode: 'client')
-import nuxt_plugin_i18nconfig_ad306bc6 from 'nuxt_plugin_i18nconfig_ad306bc6' // Source: ..\\plugins\\i18n-config.js (mode: 'all')
-import nuxt_plugin_carousselconfig_6e4e7344 from 'nuxt_plugin_carousselconfig_6e4e7344' // Source: ..\\plugins\\caroussel-config (mode: 'client')
-import nuxt_plugin_countupconfig_ca7ae10a from 'nuxt_plugin_countupconfig_ca7ae10a' // Source: ..\\plugins\\countup-config (mode: 'client')
-import nuxt_plugin_vuescrollnav_65918480 from 'nuxt_plugin_vuescrollnav_65918480' // Source: ..\\plugins\\vue-scroll-nav (mode: 'client')
+import nuxt_plugin_plugin_163e354e from 'nuxt_plugin_plugin_163e354e' // Source: ./vuetify/plugin.js (mode: 'all')
+import nuxt_plugin_pluginutils_bac7cf60 from 'nuxt_plugin_pluginutils_bac7cf60' // Source: ./nuxt-i18n/plugin.utils.js (mode: 'all')
+import nuxt_plugin_pluginrouting_21f7d19b from 'nuxt_plugin_pluginrouting_21f7d19b' // Source: ./nuxt-i18n/plugin.routing.js (mode: 'all')
+import nuxt_plugin_pluginmain_4e24f7b4 from 'nuxt_plugin_pluginmain_4e24f7b4' // Source: ./nuxt-i18n/plugin.main.js (mode: 'all')
+import nuxt_plugin_nuxtmq_a9b5e0da from 'nuxt_plugin_nuxtmq_a9b5e0da' // Source: ./nuxt-mq.js (mode: 'all')
+import nuxt_plugin_nuxttypeform_57e2b00e from 'nuxt_plugin_nuxttypeform_57e2b00e' // Source: ./nuxt-typeform.js (mode: 'all')
+import nuxt_plugin_fontawesome_4ea5a44d from 'nuxt_plugin_fontawesome_4ea5a44d' // Source: ./fontawesome.js (mode: 'all')
+import nuxt_plugin_vuefragmentconfig_12a6b83c from 'nuxt_plugin_vuefragmentconfig_12a6b83c' // Source: ../plugins/vue-fragment-config (mode: 'all')
+import nuxt_plugin_vuewowconfig_32ee3066 from 'nuxt_plugin_vuewowconfig_32ee3066' // Source: ../plugins/vue-wow-config (mode: 'all')
+import nuxt_plugin_vueyoutubeconfig_52b5d649 from 'nuxt_plugin_vueyoutubeconfig_52b5d649' // Source: ../plugins/vue-youtube-config (mode: 'client')
+import nuxt_plugin_i18nconfig_ad306bc6 from 'nuxt_plugin_i18nconfig_ad306bc6' // Source: ../plugins/i18n-config.js (mode: 'all')
+import nuxt_plugin_carousselconfig_6e4e7344 from 'nuxt_plugin_carousselconfig_6e4e7344' // Source: ../plugins/caroussel-config (mode: 'client')
+import nuxt_plugin_countupconfig_ca7ae10a from 'nuxt_plugin_countupconfig_ca7ae10a' // Source: ../plugins/countup-config (mode: 'client')
+import nuxt_plugin_vuescrollnav_65918480 from 'nuxt_plugin_vuescrollnav_65918480' // Source: ../plugins/vue-scroll-nav (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -223,32 +223,32 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_2d5980ec === 'function') {
-    await nuxt_plugin_plugin_2d5980ec(app.context, inject)
+  if (typeof nuxt_plugin_plugin_163e354e === 'function') {
+    await nuxt_plugin_plugin_163e354e(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginutils_e2d69cba === 'function') {
-    await nuxt_plugin_pluginutils_e2d69cba(app.context, inject)
+  if (typeof nuxt_plugin_pluginutils_bac7cf60 === 'function') {
+    await nuxt_plugin_pluginutils_bac7cf60(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginrouting_1ba13ba4 === 'function') {
-    await nuxt_plugin_pluginrouting_1ba13ba4(app.context, inject)
+  if (typeof nuxt_plugin_pluginrouting_21f7d19b === 'function') {
+    await nuxt_plugin_pluginrouting_21f7d19b(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginmain_8e4b2ffe === 'function') {
-    await nuxt_plugin_pluginmain_8e4b2ffe(app.context, inject)
+  if (typeof nuxt_plugin_pluginmain_4e24f7b4 === 'function') {
+    await nuxt_plugin_pluginmain_4e24f7b4(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_nuxtmq_41955a73 === 'function') {
-    await nuxt_plugin_nuxtmq_41955a73(app.context, inject)
+  if (typeof nuxt_plugin_nuxtmq_a9b5e0da === 'function') {
+    await nuxt_plugin_nuxtmq_a9b5e0da(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_nuxttypeform_a5d96a4e === 'function') {
-    await nuxt_plugin_nuxttypeform_a5d96a4e(app.context, inject)
+  if (typeof nuxt_plugin_nuxttypeform_57e2b00e === 'function') {
+    await nuxt_plugin_nuxttypeform_57e2b00e(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_fontawesome_4c357f2d === 'function') {
-    await nuxt_plugin_fontawesome_4c357f2d(app.context, inject)
+  if (typeof nuxt_plugin_fontawesome_4ea5a44d === 'function') {
+    await nuxt_plugin_fontawesome_4ea5a44d(app.context, inject)
   }
 
   if (typeof nuxt_plugin_vuefragmentconfig_12a6b83c === 'function') {

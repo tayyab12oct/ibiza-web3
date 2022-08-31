@@ -2,73 +2,85 @@
   {
     "name": "blank-page___en",
     "path": "/blank-page",
-    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\blank-page.vue",
-    "chunkName": "pages/blank-page"
+    "component": "/Users/tayyab/Desktop/ibiza/pages/blank-page.vue",
+    "chunkName": "pages/blank-page",
+    "_name": "_21921217"
   },
   {
     "name": "contact___en",
     "path": "/contact",
-    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact"
+    "component": "/Users/tayyab/Desktop/ibiza/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_388c6a01"
   },
   {
     "name": "index___es",
     "path": "/es",
-    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "/Users/tayyab/Desktop/ibiza/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2e6d03f3"
   },
   {
     "name": "login___en",
     "path": "/login",
-    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\login.vue",
-    "chunkName": "pages/login"
+    "component": "/Users/tayyab/Desktop/ibiza/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_0fd6b1ec"
   },
   {
     "name": "Privacy-terms___en",
     "path": "/Privacy-terms",
-    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\Privacy-terms.vue",
-    "chunkName": "pages/Privacy-terms"
+    "component": "/Users/tayyab/Desktop/ibiza/pages/Privacy-terms.vue",
+    "chunkName": "pages/Privacy-terms",
+    "_name": "_dd92b5fa"
   },
   {
     "name": "register___en",
     "path": "/register",
-    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\register.vue",
-    "chunkName": "pages/register"
+    "component": "/Users/tayyab/Desktop/ibiza/pages/register.vue",
+    "chunkName": "pages/register",
+    "_name": "_29ab9d92"
   },
   {
     "name": "blank-page___es",
     "path": "/es/blank-page",
-    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\blank-page.vue",
-    "chunkName": "pages/blank-page"
+    "component": "/Users/tayyab/Desktop/ibiza/pages/blank-page.vue",
+    "chunkName": "pages/blank-page",
+    "_name": "_21921217"
   },
   {
     "name": "contact___es",
     "path": "/es/contact",
-    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact"
+    "component": "/Users/tayyab/Desktop/ibiza/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_388c6a01"
   },
   {
     "name": "login___es",
     "path": "/es/login",
-    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\login.vue",
-    "chunkName": "pages/login"
+    "component": "/Users/tayyab/Desktop/ibiza/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_0fd6b1ec"
   },
   {
     "name": "Privacy-terms___es",
     "path": "/es/Privacy-terms",
-    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\Privacy-terms.vue",
-    "chunkName": "pages/Privacy-terms"
+    "component": "/Users/tayyab/Desktop/ibiza/pages/Privacy-terms.vue",
+    "chunkName": "pages/Privacy-terms",
+    "_name": "_dd92b5fa"
   },
   {
     "name": "register___es",
     "path": "/es/register",
-    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\register.vue",
-    "chunkName": "pages/register"
+    "component": "/Users/tayyab/Desktop/ibiza/pages/register.vue",
+    "chunkName": "pages/register",
+    "_name": "_29ab9d92"
   },
   {
     "name": "index___en",
     "path": "/",
-    "component": "C:\\\\laragon\\\\www\\\\vue\\\\Ibzamaintweb\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "/Users/tayyab/Desktop/ibiza/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2e6d03f3"
   }
 ]
